@@ -2,7 +2,7 @@ from ase.io.trajectory import Trajectory
 import numpy as np
 from ase.io import read
 from ase.geometry.analysis import Analysis
-
+#old file see bonds.py for better version
 file= read('tin_acetate.xyz')
 
 traj = Trajectory('tin_acetate.traj', 'w')
